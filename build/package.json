@@ -1,0 +1,14 @@
+{
+  "name": "ELISA",
+  "version": "1.0.0",
+  "description": "Elisa",
+  "repository": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.3"
+  }
+}

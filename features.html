@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Overview - Chest X-ray Anomalies Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .nav-button {
+    		background-color: #F1EEDC;
+    		color: #fff;
+    		padding: 10px 20px;
+    		border: none;
+    		border-radius: 5px;
+    		text-decoration: none;
+    		font-size: 1em;
+    		transition: background-color 0.3s ease;
+		}
+
+		.nav-button:hover {
+    		background-color: #D8AE7E;
+		}
+
+        #system {
+            background-color: #F1EEDC;
+            padding: 50px 0;
+        }
+
+        #system .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #system h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        #system p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        #system ul {
+            text-align: left;
+        }
+
+        #system ul li {
+            margin-bottom: 10px;
+        }
+
+    </style>    
+</head>
+<body>
+    <header>
+        <div class="title-bar" style="background-color: #F1EEDC;color: #AF8260;padding: 10px 20px; margin: 0 auto; text-align: center; font-family: Cambria;">
+            <h1>ELISA - CHEST X-RAY REPORT</h1>
+            
+        </div><br>
+        <nav style="display: inline; margin-right: 20px; text-align: center;">
+            <ul style="list-style-type: none;">
+                <li style="display: inline; margin-right: 20px;"><a href="index.htm" class="nav-button" style="color: #AF8260">Home</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="system.html" class="nav-button" style="color: #AF8260">System</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="anomalies.html" class="nav-button" style="color: #AF8260">Anomalies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="system">
+        <div class="content" style="font-family: Cambria; width: 50%; margin: 0 auto; color: #AF8260;">
+            <h2>Features</h2>
+            <p>Key features of the Chest X-ray Anomalies Detection System include:</p>
+            <ul>
+                <li>Deep learning-based analysis for accurate anomaly detection.</li>
+                <li>Modular design for flexibility and future scalability.</li>
+                <li>Compatibility with various frameworks through the ONNX conversion pipeline.</li>
+                <li>Easy accessibility via web interface.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ELISA - Chest X-ray Anomalies Detection System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
